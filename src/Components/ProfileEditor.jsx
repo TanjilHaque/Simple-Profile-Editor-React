@@ -8,8 +8,6 @@ const ProfileEditor = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(name)
-    console.log(value)
     setUser((prevUser) => ({
       ...prevUser,
       [name]: value,
